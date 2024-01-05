@@ -12,8 +12,8 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
+	api "github.com/cuijianguo/kratos-transport/testing/api/manual"
 	"github.com/stretchr/testify/assert"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
 
 	"github.com/tx7do/kratos-transport/broker"
 	"github.com/tx7do/kratos-transport/broker/nsq"

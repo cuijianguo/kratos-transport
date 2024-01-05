@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-kratos/kratos/v2/transport"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/nsq"
-	"github.com/tx7do/kratos-transport/utils"
+	"github.com/cuijianguo/kratos-transport/broker"
+	"github.com/cuijianguo/kratos-transport/broker/nsq"
+	"github.com/cuijianguo/kratos-transport/utils"
 )
 
 var (

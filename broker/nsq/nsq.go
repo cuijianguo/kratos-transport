@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/cuijianguo/kratos-transport/broker"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/uuid"
 	NSQ "github.com/nsqio/go-nsq"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 var (

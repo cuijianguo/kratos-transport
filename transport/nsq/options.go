@@ -3,8 +3,8 @@ package nsq
 import (
 	"crypto/tls"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/nsq"
+	"github.com/cuijianguo/kratos-transport/broker"
+	"github.com/cuijianguo/kratos-transport/broker/nsq"
 )
 
 type ServerOption func(o *Server)

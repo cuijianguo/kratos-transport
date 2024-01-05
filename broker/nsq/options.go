@@ -3,8 +3,8 @@ package nsq
 import (
 	"time"
 
+	"github.com/cuijianguo/kratos-transport/broker"
 	"github.com/nsqio/go-nsq"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 ///

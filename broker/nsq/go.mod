@@ -3,11 +3,11 @@ module github.com/cuijianguo/kratos-transport/broker/nsq
 go 1.19
 
 require (
+	github.com/cuijianguo/kratos-transport v0.0.0-20240105090937-f150c1c3801b
 	github.com/go-kratos/kratos/v2 v2.7.1
 	github.com/google/uuid v1.4.0
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/stretchr/testify v1.8.4
-	github.com/tx7do/kratos-transport v1.1.1
 )
 
 require (
