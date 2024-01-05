@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/nsq
+module github.com/cuijianguo/kratos-transport/transport/nsq
 
 go 1.19
 
