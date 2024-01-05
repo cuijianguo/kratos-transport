@@ -42,6 +42,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/kratos-transport => ../../
+replace github.com/cuijianguo/kratos-transport => ../../
 
-replace github.com/tx7do/kratos-transport/broker/nsq => ../../broker/nsq
+replace github.com/cuijianguo/kratos-transport/broker/nsq => ../../broker/nsq
