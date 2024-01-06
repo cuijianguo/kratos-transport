@@ -32,8 +32,8 @@ func (sm *SubscriberSyncMap) Add(topic string, sub Subscriber) {
 }
 
 func (sm *SubscriberSyncMap) Remove(topic string) error {
-	sm.Lock()
-	defer sm.Unlock()
+	//sm.Lock()
+	//defer sm.Unlock()
 
 	if sub, ok := sm.m[topic]; ok {
 		delete(sm.m, topic)
@@ -44,8 +44,8 @@ func (sm *SubscriberSyncMap) Remove(topic string) error {
 }
 
 func (sm *SubscriberSyncMap) Clear() {
-	sm.Lock()
-	defer sm.Unlock()
+	//sm.Lock()
+	//defer sm.Unlock()
 
 	for _, sub := range sm.m {
 		_ = sub.Unsubscribe()

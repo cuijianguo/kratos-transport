@@ -37,8 +37,8 @@ func (s *subscriber) Topic() string {
 }
 
 func (s *subscriber) Unsubscribe() error {
-	s.Lock()
-	defer s.Unlock()
+	//s.Lock()
+	//defer s.Unlock()
 
 	if s.consumer != nil {
 		s.consumer.Stop()
